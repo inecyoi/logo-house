@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+button{
+    cursor:pointer;
+}
+.floatleft{
+    float: left;
+}
+.floatright{
+    float: right;
+}
+.horizontally{
+    margin: 0 auto;
+}
+.element100{
+    width: 100%;
+    height: 100%;
+}
+.X-padding100{
+    padding: 0 100px;
+}
+.X-padding200{
+    padding: 0 200px;
+}
+.Y-transfrom50{
+    transform: translateY(50%);
+}
+/* 双伪标签清除浮动，*/
+.clearfix:before,
+.clearfix:after{
+    content: "";
+    display: table;
+}
+.clearfix:after{
+    clear:both;
+}
+.clearfix{
+    *zoom:1;
+}
